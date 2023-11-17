@@ -57,16 +57,20 @@ The server will be running on `http://localhost:4000` by default.
 1. ##### `/`
    - Method: GET
    - Description: Get statistics of the entire database.
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/8ff8fd95-82db-4231-b6dd-ea3fc9346c1f)
 
 2. ##### `/:subject`
 
    - Method: GET
    - Description: Get statistics of a specific subject in the database.
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/26247097-b31a-49f0-b482-d277af4849b3)
 
 3. ##### `/:subject/:topic`
 
    - Method: GET
    - Description: Get statistics of a specific subject and topic in the database.
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/19254bb0-ee73-40b7-b145-cabd0b60f5ab)
+
 
 ### 2. Question Routes
 
