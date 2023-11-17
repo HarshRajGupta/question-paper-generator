@@ -57,20 +57,19 @@ The server will be running on `http://localhost:4000` by default.
 1. ##### `/`
    - Method: GET
    - Description: Get statistics of the entire database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/8ff8fd95-82db-4231-b6dd-ea3fc9346c1f)
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/c0b5b639-dadf-40ce-b2fb-e170a1fb60a2)
 
 2. ##### `/:subject`
 
    - Method: GET
    - Description: Get statistics of a specific subject in the database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/26247097-b31a-49f0-b482-d277af4849b3)
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/e5cad74e-e459-419c-9c16-5b4bbd18a9df)
 
 3. ##### `/:subject/:topic`
 
    - Method: GET
    - Description: Get statistics of a specific subject and topic in the database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/19254bb0-ee73-40b7-b145-cabd0b60f5ab)
-
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/b77ed2bd-c348-4932-9412-122853af5669)
 
 ### 2. Question Routes
 
@@ -78,6 +77,7 @@ The server will be running on `http://localhost:4000` by default.
 
    - Method: GET
    - Description: Get all questions in the database.
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/e5dfe93f-93ef-4b49-b578-c7d2dfa36028)
 
 2. ##### `/api/getQuestions`
 
