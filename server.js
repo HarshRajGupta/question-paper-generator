@@ -33,7 +33,7 @@ const start = async () => {
     try {
         await connectDB();
         app.listen(port, () => {
-            console.log(`DEBUG: Server listening on ${port}`);
+            console.log(`DEBUG: Server listening on http://localhost:${port}`);
         });
         await createDB();
     } catch (error) {
