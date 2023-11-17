@@ -4,6 +4,11 @@
 
 This repository contains the backend for a Question Paper Generator implemented in Node.js. The system allows users to manage and retrieve questions based on various criteria such as subject, topic, and difficulty. Additionally, it provides endpoints for adding single or multiple questions and generating question papers.
 
+## NOTE 
+
+1. All questions of same difficulty are considered to be of equal weighage provided subjects are same.
+2. Sample Data is provided in `data.json` file, to monitor its statics use `Stats Routes`
+
 ## Setup
 
 To run the application, follow these steps:
@@ -44,28 +49,28 @@ The server will be running on `http://localhost:3000` by default.
 
 ### 1. Stats Routes
 
-##### `/`
+1. ##### `/`
    - Method: GET
    - Description: Get statistics of the entire database.
 
-##### `/:subject`
+2. ##### `/:subject`
 
    - Method: GET
    - Description: Get statistics of a specific subject in the database.
 
-##### `/:subject/:topic`
+3. ##### `/:subject/:topic`
 
    - Method: GET
    - Description: Get statistics of a specific subject and topic in the database.
 
 ### 2. Question Routes
 
-##### `/api/`
+1. ##### `/api`
 
    - Method: GET
    - Description: Get all questions in the database.
 
-##### `/api/getQuestions`
+2. ##### `/api/getQuestions`
 
    - Method: POST
    - Description: Get questions based on specified criteria.
@@ -74,7 +79,7 @@ The server will be running on `http://localhost:3000` by default.
       - topic (optional)
       - difficulty (optional)
 
-##### `/api/addQuestion`
+3. ##### `/api/addQuestion`
 
    - Method: POST
    - Description: Add a single question to the database.
@@ -85,7 +90,7 @@ The server will be running on `http://localhost:3000` by default.
       - difficulty (easy, medium, or hard)
       - marks
 
-##### `/api/addMultipleQuestions`
+4. ##### `/api/addMultipleQuestions`
 
    - Method: POST
    - Description: Add multiple questions to the database.
@@ -93,7 +98,7 @@ The server will be running on `http://localhost:3000` by default.
 
 ### 3. Question Paper Route
 
-##### `/api/getQuestionPaper`
+1. ##### `/api/getQuestionPaper`
 
    - Method: POST
    - Description: Generate a question paper based on specified criteria.
