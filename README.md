@@ -68,13 +68,15 @@ The server will be running on [`http://localhost:4000`](http://localhost:4000) b
 
    - Method: GET
    - Description: Get statistics of a specific subject in the database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/e5cad74e-e459-419c-9c16-5b4bbd18a9df)
+   - ![`/:subject`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/341cdffd-4f0a-40d5-9789-99dc7b57382c)
+
 
 3. ##### `/:subject/:topic`
 
    - Method: GET
    - Description: Get statistics of a specific subject and topic in the database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/b77ed2bd-c348-4932-9412-122853af5669)
+   - ![`/:subject/:topic`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/e44be671-c9fc-453e-8fb1-f345113613be)
+
 
 ### 2. Question Routes
 
@@ -82,7 +84,8 @@ The server will be running on [`http://localhost:4000`](http://localhost:4000) b
 
    - Method: GET
    - Description: Get all questions in the database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/e5dfe93f-93ef-4b49-b578-c7d2dfa36028)
+   - ![`/api`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/cd9940c5-87a4-4b3b-8971-9b9994a2326b)
+
 
 2. ##### `/api/getQuestions`
 
@@ -92,7 +95,9 @@ The server will be running on [`http://localhost:4000`](http://localhost:4000) b
      - subject (optional)
      - topic (optional)
      - difficulty (optional)
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/b90cf4fd-0e0c-4dec-a76c-0ceee92caa96)
+   - ![`/api/getQuestions`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/300d99ea-5816-4d26-a036-53365e4bddaa)
+
+
 
 3. ##### `/api/addQuestion`
 
@@ -104,14 +109,16 @@ The server will be running on [`http://localhost:4000`](http://localhost:4000) b
      - topic
      - difficulty (easy, medium, or hard)
      - marks
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/3aad13e5-3749-40f0-bb98-6e709c2b5f6c)
+   - ![`/api/addQuestion`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/78779762-bac7-443c-892f-b7fece13ee8a)
+
 
 4. ##### `/api/addMultipleQuestions`
 
    - Method: POST
    - Description: Add multiple questions to the database.
    - Input: `questions` (Array of question objects).
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/0836b589-20c2-4b66-b0b1-d8b1e7461b16)
+   - ![`/api/addMultipleQuestions`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/96e8ae2c-ebf8-4016-ab5f-65a07edc0e5e)
+
 
 ### 3. Question Paper Route
 
@@ -126,6 +133,7 @@ The server will be running on [`http://localhost:4000`](http://localhost:4000) b
      - medium (total weighage of medium questions)
      - hard (total weighage of hard questions)
      - marks (optional, provide if `easy`, `medium`, and `hard` are fractions or percentage)
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/6ae7dc0d-5a18-46db-8583-a9080c98a804)
+   - ![`/api/getQuestionPaper`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/af59d04d-100c-4d11-8f5c-f0afc6e288f2)
    - NOTE: Make sure to provide marks if `easy`, `medium`, and `hard` are fractions or percentages. Otherwise, they will be considered as the total weighage.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/8be12783-5299-409b-9315-70ffa82aa075)
+   - ![`/api/getQuestionPaper`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/90c7b812-263e-4b9b-ab32-df36cccfd7d6)
+
