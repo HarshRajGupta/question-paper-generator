@@ -11,14 +11,14 @@ app.use("/api", require("./routes/index"));
 const port = process.env.PORT || 4000;
 
 app.get("/", (req, res) =>
-    res.send(`Server listening on <a href="http://localhost:${port}">http://localhost:${port} </a>`)
+    res.send(`Server listening on <a href="${process.env.BACKEND_URL}">${process.env.BACKEND_URL}</a>`)
 )
 
 const start = async () => {
     try {
         await connectDB();
         app.listen(port, () => {
-            console.log(`DEBUG: Server listening on http://localhost:${port}`);
+            console.log(`DEBUG: Server listening on ${process.env.BACKEND_URL}`);
         });
     } catch (error) {
         console.log(error);

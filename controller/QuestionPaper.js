@@ -37,13 +37,9 @@ const getQuestionPaper = async (req, res) => {
         const EasyQuestionSet = await getQuestionSet({ ...query, difficulty: 'easy' });
         const MediumQuestionSet = await getQuestionSet({ ...query, difficulty: 'medium' });
         const HardQuestionSet = await getQuestionSet({ ...query, difficulty: 'hard' });
-        if (easy + medium + hard === 1) {
-            const EasyQuestions = pickRandom(EasyQuestionSet, marks * easy);
-            const MediumQuestions = pickRandom(MediumQuestionSet, marks * medium);
-            const HardQuestions = pickRandom(HardQuestionSet, marks * hard);
-            const TotalMarks = EasyQuestions.total + MediumQuestions.total + HardQuestions.total;
-            const Question = [...EasyQuestions.picked, ...MediumQuestions.picked, ...HardQuestions.picked];
-            console.log(`DEBUG: Question sent`);
+        if (!marks) {
+            const EasyQuestions = pickRandom(EasyQuestionSet, easy), MediumQuestions = pickRandom(MediumQuestionSet, medium), HardQuestions = pickRandom(HardQuestionSet, hard);
+            const TotalMarks = EasyQuestions.total + MediumQuestions.total + HardQuestions.total, Question = [...EasyQuestions.picked, ...MediumQuestions.picked, ...HardQuestions.picked];
             return res.status(200).json({
                 success: true,
                 Question: Question,
@@ -51,24 +47,18 @@ const getQuestionPaper = async (req, res) => {
                 EasyQuestionSet: EasyQuestions,
                 MediumQuestionSet: MediumQuestions,
                 HardQuestionSet: HardQuestions,
-                msg: 'Question sent'
             });
-        } else if (easy + medium + hard === 100) {
-            const EasyQuestions = pickRandom(EasyQuestionSet, (easy * marks) / 100);
-            const MediumQuestions = pickRandom(MediumQuestionSet, (medium * marks) / 100);
-            const HardQuestions = pickRandom(HardQuestionSet, (hard * marks) / 100);
-            const TotalMarks = EasyQuestions.total + MediumQuestions.total + HardQuestions.total;
-            const Question = [...EasyQuestions.picked, ...MediumQuestions.picked, ...HardQuestions.picked];
-            console.log(`DEBUG: Question sent`);
+        } else {
+            const sumOfDifficulty = easy + medium + hard;
+            const EasyQuestions = pickRandom(EasyQuestionSet, (easy * marks) / sumOfDifficulty), MediumQuestions = pickRandom(MediumQuestionSet, (medium * marks) / sumOfDifficulty), HardQuestions = pickRandom(HardQuestionSet, (hard * marks) / sumOfDifficulty);
+            const TotalMarks = EasyQuestions.total + MediumQuestions.total + HardQuestions.total, Question = [...EasyQuestions.picked, ...MediumQuestions.picked, ...HardQuestions.picked];
             return res.status(200).json({
                 success: true,
-                TotalMarks: TotalMarks,
-                Deficit: marks - TotalMarks,
                 Question: Question,
-                EasyQuestionSet: EasyQuestionSet,
-                MediumQuestionSet: MediumQuestionSet,
-                HardQuestionSet: HardQuestionSet,
-                msg: 'Question sent'
+                TotalMarks: TotalMarks,
+                EasyQuestionSet: EasyQuestions,
+                MediumQuestionSet: MediumQuestions,
+                HardQuestionSet: HardQuestions,
             });
         }
     } catch (err) {
