@@ -44,29 +44,29 @@ The server will be running on `http://localhost:3000` by default.
 
 ### 1. Stats Routes
 
-#### - `/`
+- ##### `/`
 
 -   Method: GET
 -   Description: Get statistics of the entire database.
 
-#### - `/:subject`
+- ##### `/:subject`
 
 -   Method: GET
 -   Description: Get statistics of a specific subject in the database.
 
-#### - `/:subject/:topic`
+- ##### `/:subject/:topic`
 
 -   Method: GET
 -   Description: Get statistics of a specific subject and topic in the database.
 
 ### 2. Question Routes
 
-##### - `/api/`
+- ##### `/api/`
 
 -   Method: GET
 -   Description: Get all questions in the database.
 
-##### - `/api/getQuestions`
+##### `/api/getQuestions`
 
 -   Method: POST
 -   Description: Get questions based on specified criteria.
@@ -75,7 +75,7 @@ The server will be running on `http://localhost:3000` by default.
     -   topic (optional)
     -   difficulty (optional)
 
-##### - `/api/addQuestion`
+##### `/api/addQuestion`
 
 -   Method: POST
 -   Description: Add a single question to the database.
@@ -86,7 +86,7 @@ The server will be running on `http://localhost:3000` by default.
     -   difficulty (easy, medium, or hard)
     -   marks
 
-##### - `/api/addMultipleQuestions`
+##### `/api/addMultipleQuestions`
 
 -   Method: POST
 -   Description: Add multiple questions to the database.
@@ -94,7 +94,7 @@ The server will be running on `http://localhost:3000` by default.
 
 ### 3. Question Paper Route
 
-##### - `/api/getQuestionPaper`
+##### `/api/getQuestionPaper`
 
 -   Method: POST
 -   Description: Generate a question paper based on specified criteria.
