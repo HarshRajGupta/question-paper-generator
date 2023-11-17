@@ -87,6 +87,7 @@ The server will be running on `http://localhost:4000` by default.
       - subject (optional)
       - topic (optional)
       - difficulty (optional)
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/b90cf4fd-0e0c-4dec-a76c-0ceee92caa96)
 
 3. ##### `/api/addQuestion`
 
