@@ -1,0 +1,949 @@
+{
+	"questions": [
+		{
+			"question": "What is the speed of light",
+			"subject": "Physics",
+			"topic": "Waves",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the formula of speed",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Difference between distance and displacement.",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is velocity",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define Ohm's Law",
+			"subject": "Physics",
+			"topic": "Electricity",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of inertia",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the formula for calculating kinetic energy?",
+			"subject": "Physics",
+			"topic": "Energy",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Describe the Doppler effect",
+			"subject": "Physics",
+			"topic": "Waves",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the law of conservation of energy?",
+			"subject": "Physics",
+			"topic": "Energy",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of magnetic field",
+			"subject": "Physics",
+			"topic": "Magnetism",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Define Newton's third law of motion",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the difference between mass and weight?",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the photoelectric effect",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Difference between distance and displacement",
+			"subject": "Physics",
+			"topic": "Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the structure of an atom?",
+			"subject": "Chemistry",
+			"topic": "Atomic Structure",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the process of photosynthesis",
+			"subject": "Biology",
+			"topic": "Cellular Processes",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the first law of thermodynamics",
+			"subject": "Chemistry",
+			"topic": "Thermodynamics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What are the main types of clouds?",
+			"subject": "Earth Science",
+			"topic": "Meteorology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of natural selection",
+			"subject": "Biology",
+			"topic": "Evolution",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the law of demand in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the liver in the human body?",
+			"subject": "Anatomy",
+			"topic": "Human Body Systems",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of continental drift",
+			"subject": "Geology",
+			"topic": "Plate Tectonics",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Define the concept of opportunity cost in economics",
+			"subject": "Economics",
+			"topic": "Macroeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the greenhouse effect?",
+			"subject": "Environmental Science",
+			"topic": "Climate Change",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the process of cell mitosis",
+			"subject": "Biology",
+			"topic": "Cell Biology",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the law of supply in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of red blood cells?",
+			"subject": "Anatomy",
+			"topic": "Human Physiology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of acid-base reactions",
+			"subject": "Chemistry",
+			"topic": "Chemical Reactions",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of GDP in economics",
+			"subject": "Economics",
+			"topic": "Macroeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the difference between velocity and speed?",
+			"subject": "Physics",
+			"topic": "Motion",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the role of enzymes in biological systems",
+			"subject": "Biology",
+			"topic": "Biochemistry",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of cultural relativism in anthropology",
+			"subject": "Anthropology",
+			"topic": "Cultural Anthropology",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the Bohr model of the atom?",
+			"subject": "Chemistry",
+			"topic": "Atomic Structure",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the process of osmosis",
+			"subject": "Biology",
+			"topic": "Cell Biology",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of inflation in economics",
+			"subject": "Economics",
+			"topic": "Macroeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the role of the nervous system in the human body?",
+			"subject": "Anatomy",
+			"topic": "Nervous System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of half-life in radioactive decay",
+			"subject": "Physics",
+			"topic": "Nuclear Physics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of social stratification in sociology",
+			"subject": "Sociology",
+			"topic": "Stratification",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the respiratory system?",
+			"subject": "Anatomy",
+			"topic": "Respiratory System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the principles of classical conditioning in psychology",
+			"subject": "Psychology",
+			"topic": "Behaviorism",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of biodiversity in ecology",
+			"subject": "Ecology",
+			"topic": "Biodiversity",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the endocrine system?",
+			"subject": "Anatomy",
+			"topic": "Endocrine System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of electron configuration in atoms",
+			"subject": "Chemistry",
+			"topic": "Atomic Structure",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of globalization in sociology",
+			"subject": "Sociology",
+			"topic": "Globalization",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What are the main types of chemical bonds?",
+			"subject": "Chemistry",
+			"topic": "Chemical Bonding",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of supply chain management in business",
+			"subject": "Business",
+			"topic": "Supply Chain",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of socialization in sociology",
+			"subject": "Sociology",
+			"topic": "Socialization",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the process of meiosis",
+			"subject": "Biology",
+			"topic": "Cell Biology",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of market equilibrium in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the role of the immune system in the human body?",
+			"subject": "Anatomy",
+			"topic": "Immune System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the principles of chemical kinetics",
+			"subject": "Chemistry",
+			"topic": "Chemical Kinetics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of fiscal policy in economics",
+			"subject": "Economics",
+			"topic": "Macroeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the function of the circulatory system?",
+			"subject": "Anatomy",
+			"topic": "Circulatory System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of oxidation-reduction reactions",
+			"subject": "Chemistry",
+			"topic": "Redox Reactions",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of cultural diffusion in anthropology",
+			"subject": "Anthropology",
+			"topic": "Cultural Anthropology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the Schrödinger equation in quantum mechanics?",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Explain the process of protein synthesis",
+			"subject": "Biology",
+			"topic": "Molecular Biology",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of monetary policy in economics",
+			"subject": "Economics",
+			"topic": "Macroeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the role of the skeletal system?",
+			"subject": "Anatomy",
+			"topic": "Skeletal System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of wave-particle duality in physics",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of ethnocentrism in sociology",
+			"subject": "Sociology",
+			"topic": "Cultural Sociology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the role of the digestive system?",
+			"subject": "Anatomy",
+			"topic": "Digestive System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the principles of cognitive development in psychology",
+			"subject": "Psychology",
+			"topic": "Developmental Psychology",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of ecosystem in ecology",
+			"subject": "Ecology",
+			"topic": "Ecosystem Ecology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the excretory system?",
+			"subject": "Anatomy",
+			"topic": "Excretory System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of electronegativity in chemistry",
+			"subject": "Chemistry",
+			"topic": "Chemical Bonding",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of deviance in sociology",
+			"subject": "Sociology",
+			"topic": "Social Deviance",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What are the main types of electromagnetic waves?",
+			"subject": "Physics",
+			"topic": "Electromagnetism",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of corporate social responsibility in business",
+			"subject": "Business",
+			"topic": "Ethics in Business",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of social mobility in sociology",
+			"subject": "Sociology",
+			"topic": "Social Stratification",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the process of DNA replication",
+			"subject": "Biology",
+			"topic": "Genetics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of elasticity in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the function of the integumentary system?",
+			"subject": "Anatomy",
+			"topic": "Integumentary System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the principles of organic chemistry",
+			"subject": "Chemistry",
+			"topic": "Organic Chemistry",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of balance of trade in economics",
+			"subject": "Economics",
+			"topic": "International Trade",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the role of the muscular system?",
+			"subject": "Anatomy",
+			"topic": "Muscular System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of reaction mechanisms in chemistry",
+			"subject": "Chemistry",
+			"topic": "Chemical Kinetics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of cultural materialism in anthropology",
+			"subject": "Anthropology",
+			"topic": "Cultural Anthropology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is Heisenberg's Uncertainty Principle in quantum mechanics?",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Explain the process of transcription in genetics",
+			"subject": "Biology",
+			"topic": "Genetics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of externalities in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the role of the exocrine system?",
+			"subject": "Anatomy",
+			"topic": "Exocrine System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of chemical equilibrium in chemistry",
+			"subject": "Chemistry",
+			"topic": "Chemical Equilibrium",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of animism in anthropology",
+			"subject": "Anthropology",
+			"topic": "Cultural Anthropology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the urinary system?",
+			"subject": "Anatomy",
+			"topic": "Urinary System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the principles of social learning theory in psychology",
+			"subject": "Psychology",
+			"topic": "Behaviorism",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of ecological succession in ecology",
+			"subject": "Ecology",
+			"topic": "Ecological Succession",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the reproductive system?",
+			"subject": "Anatomy",
+			"topic": "Reproductive System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of Lewis structures in chemistry",
+			"subject": "Chemistry",
+			"topic": "Chemical Bonding",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of anomie in sociology",
+			"subject": "Sociology",
+			"topic": "Social Theory",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What are the main types of galaxies in astronomy?",
+			"subject": "Astronomy",
+			"topic": "Galaxies",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of risk management in business",
+			"subject": "Business",
+			"topic": "Risk Management",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of social control in sociology",
+			"subject": "Sociology",
+			"topic": "Social Control",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the role of chloroplasts in plant cells?",
+			"subject": "Biology",
+			"topic": "Cell Biology",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of oligopoly in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the function of the endoskeleton in vertebrates?",
+			"subject": "Anatomy",
+			"topic": "Skeletal System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the principles of thermodynamic entropy",
+			"subject": "Physics",
+			"topic": "Thermodynamics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of monopolistic competition in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the process of protein folding in biochemistry",
+			"subject": "Biology",
+			"topic": "Biochemistry",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of price elasticity of demand in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the role of the lymphatic system in the human body?",
+			"subject": "Anatomy",
+			"topic": "Lymphatic System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the principles of acid-base titrations in chemistry",
+			"subject": "Chemistry",
+			"topic": "Analytical Chemistry",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of perfect competition in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the function of the nervous tissue in animals?",
+			"subject": "Anatomy",
+			"topic": "Nervous System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of chemical equilibrium in reversible reactions",
+			"subject": "Chemistry",
+			"topic": "Chemical Equilibrium",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of kinship in cultural anthropology",
+			"subject": "Anthropology",
+			"topic": "Cultural Anthropology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the Schrödinger equation in quantum mechanics?",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Explain the process of RNA splicing in genetics",
+			"subject": "Biology",
+			"topic": "Genetics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of fiscal policy in macroeconomics",
+			"subject": "Economics",
+			"topic": "Macroeconomics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the role of the integumentary system in temperature regulation?",
+			"subject": "Anatomy",
+			"topic": "Integumentary System",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of chemical bonding in covalent molecules",
+			"subject": "Chemistry",
+			"topic": "Chemical Bonding",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the concept of animatism in religious anthropology",
+			"subject": "Anthropology",
+			"topic": "Religious Anthropology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the endocrine system in hormonal regulation?",
+			"subject": "Anatomy",
+			"topic": "Endocrine System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the principles of operant conditioning in psychology",
+			"subject": "Psychology",
+			"topic": "Behaviorism",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of carrying capacity in ecology",
+			"subject": "Ecology",
+			"topic": "Population Ecology",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the function of the respiratory system in gas exchange?",
+			"subject": "Anatomy",
+			"topic": "Respiratory System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of Lewis acids and bases in chemistry",
+			"subject": "Chemistry",
+			"topic": "Acids and Bases",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of social construction in sociology",
+			"subject": "Sociology",
+			"topic": "Social Theory",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What are the main types of planetary orbits in our solar system?",
+			"subject": "Astronomy",
+			"topic": "Planetary Science",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "Explain the concept of corporate governance in business",
+			"subject": "Business",
+			"topic": "Corporate Governance",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of social norms in sociology",
+			"subject": "Sociology",
+			"topic": "Social Norms",
+			"difficulty": "easy",
+			"marks": 5
+		},
+		{
+			"question": "What is the role of the digestive system in nutrient absorption?",
+			"subject": "Anatomy",
+			"topic": "Digestive System",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the principles of chemical kinetics in chemistry",
+			"subject": "Chemistry",
+			"topic": "Chemical Kinetics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of oligopoly in economics",
+			"subject": "Economics",
+			"topic": "Microeconomics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of thermodynamic entropy in statistical mechanics",
+			"subject": "Physics",
+			"topic": "Statistical Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Describe the concept of wave-particle duality in quantum mechanics",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Explain the principles of special relativity",
+			"subject": "Physics",
+			"topic": "Relativity",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Define the concept of electric field in electrostatics",
+			"subject": "Physics",
+			"topic": "Electrostatics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "What is the role of Higgs boson in particle physics?",
+			"subject": "Physics",
+			"topic": "Particle Physics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Explain the concept of magnetic induction in electromagnetism",
+			"subject": "Physics",
+			"topic": "Electromagnetism",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Describe the principles of fluid dynamics in physics",
+			"subject": "Physics",
+			"topic": "Fluid Dynamics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Define the laws of thermodynamics",
+			"subject": "Physics",
+			"topic": "Thermodynamics",
+			"difficulty": "medium",
+			"marks": 10
+		},
+		{
+			"question": "Explain the concept of black holes in astrophysics",
+			"subject": "Physics",
+			"topic": "Astrophysics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "What is the photoelectric effect, and how does it support the particle nature of light?",
+			"subject": "Physics",
+			"topic": "Quantum Mechanics",
+			"difficulty": "hard",
+			"marks": 15
+		},
+		{
+			"question": "Describe the principles of nuclear fusion in astrophysics",
+			"subject": "Physics",
+			"topic": "Astrophysics",
+			"difficulty": "hard",
+			"marks": 15
+		}
+	]
+}

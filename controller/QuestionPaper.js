@@ -32,8 +32,8 @@ const getQuestionPaper = async (req, res) => {
     const { subject, topic, easy, medium, hard, marks } = req.body;
     try {
         const query = {};
-        if (subject) query.subject = subject;
-        if (topic) query.topic = topic;
+        if (subject) query.subject = subject.toLowerCase();
+        if (topic) query.topic = topic.toLowerCase();
         const EasyQuestionSet = await getQuestionSet({ ...query, difficulty: 'easy' });
         const MediumQuestionSet = await getQuestionSet({ ...query, difficulty: 'medium' });
         const HardQuestionSet = await getQuestionSet({ ...query, difficulty: 'hard' });

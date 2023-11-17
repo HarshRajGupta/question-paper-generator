@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 const Question = new Schema({
     question: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     subject: {
         type: String,
