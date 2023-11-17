@@ -1,0 +1,23 @@
+{
+  "name": "question-paper-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarshRajGupta/question-paper-generator.git"
+  },
+  "author": "HarshRajGupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshRajGupta/question-paper-generator/issues"
+  },
+  "homepage": "https://github.com/HarshRajGupta/question-paper-generator#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
