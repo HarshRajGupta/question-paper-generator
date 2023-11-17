@@ -99,12 +99,14 @@ The server will be running on `http://localhost:4000` by default.
       - topic
       - difficulty (easy, medium, or hard)
       - marks
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/3aad13e5-3749-40f0-bb98-6e709c2b5f6c)
 
 4. ##### `/api/addMultipleQuestions`
 
    - Method: POST
    - Description: Add multiple questions to the database.
-   - Input: Array of questions.
+   - Input: `questions` (Array of question objects).
+   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/0836b589-20c2-4b66-b0b1-d8b1e7461b16)
 
 ### 3. Question Paper Route
 
