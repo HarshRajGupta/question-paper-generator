@@ -62,7 +62,7 @@ The server will be running on [`http://localhost:4000`](http://localhost:4000) b
 
    - Method: GET
    - Description: Get statistics of the entire database.
-   - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/c0b5b639-dadf-40ce-b2fb-e170a1fb60a2)
+   - ![`/`](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/aaf41a93-32e6-4648-8c55-2194618e2752)
 
 2. ##### `/:subject`
 
