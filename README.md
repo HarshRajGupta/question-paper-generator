@@ -1,4 +1,4 @@
-# Question Paper Generator Backend Readme
+# Question Paper Generator
 
 ## Overview
 
