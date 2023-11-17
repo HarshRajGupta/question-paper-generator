@@ -18,21 +18,21 @@ To run the application, follow these steps:
 ```bash
 git clone https://github.com/HarshRajGupta/question-paper-generator.git
 ```
-![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/985a2ebb-1f57-4373-8206-27f5e6c2db28)
+![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/cafc26ac-f6ef-495d-9c6d-35eeafb54913)
 
 2. Navigate to the project directory.
 
 ```bash
 cd question-paper-generator
 ```
-![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/6448b526-aa12-4a7f-b76f-99ecf4d295ec)
+![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/f97103f1-e23b-495a-96ea-f0586632a008)
 
 3. Install dependencies using npm.
 
 ```bash
 npm install
 ```
-![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/ff8e1b7f-f84b-4c36-b933-7b4c3f149f10)
+![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/db5a9da8-0149-470e-b5d6-59ae77a23fb1)
 
 4. Create a `.env` file in the root directory and add your MongoDB connection URL in the following format. You can use the provided `.env.sample` as a template.
 
@@ -46,7 +46,7 @@ MONGO_URL=mongodb://your-mongo-db-url
 ```bash
 npm start
 ```
-![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/de18178f-1dbd-42f4-9fd1-415657477d49)
+![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/ab86f97a-37eb-40cc-afa2-5a8515acee9b)
 
 The server will be running on `http://localhost:4000` by default.
 
