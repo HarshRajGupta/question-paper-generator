@@ -8,7 +8,7 @@ This repository contains the backend for a Question Paper Generator implemented 
 
 - All questions of same difficulty are considered to be of equal weighage provided subjects are same.
 - Sample Data is provided in `data.json` file, to monitor its statics use `Stats Routes`
-- Live Site Link: `https://question-paper-generator-13iy.onrender.com`
+- Live Site Link: [`https://question-paper-generator-13iy.onrender.com`](https://question-paper-generator-13iy.onrender.com)
 
 ## Setup
 
@@ -49,7 +49,7 @@ npm start
 ```
 ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/ab86f97a-37eb-40cc-afa2-5a8515acee9b)
 
-The server will be running on `http://localhost:4000` by default.
+The server will be running on [`http://localhost:4000`](http://localhost:4000) by default.
 
 ## Endpoints
 
@@ -122,6 +122,6 @@ The server will be running on `http://localhost:4000` by default.
       - medium (total weighage of medium questions)
       - hard (total weighage of hard questions)
       - marks (optional, provide if `easy`, `medium`, and `hard` are fractions or percentage)
-   - NOTE: Make sure to provide marks if `easy`, `medium`, and `hard` are fractions or percentages. Otherwise, they will be considered as the total weighage.
    - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/6ae7dc0d-5a18-46db-8583-a9080c98a804)
+   - NOTE: Make sure to provide marks if `easy`, `medium`, and `hard` are fractions or percentages. Otherwise, they will be considered as the total weighage.
    - ![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/8be12783-5299-409b-9315-70ffa82aa075)
