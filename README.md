@@ -19,8 +19,7 @@ To run the application, follow these steps:
 ```bash
 git clone https://github.com/HarshRajGupta/question-paper-generator.git
 ```
-
-![image](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/cafc26ac-f6ef-495d-9c6d-35eeafb54913)
+![git clone https://github.com/HarshRajGupta/question-paper-generator.git](https://github.com/HarshRajGupta/question-paper-generator/assets/85221003/827bebbd-d454-44fb-b1ab-3974e517d36f)
 
 2. Navigate to the project directory.
 
