@@ -14,8 +14,8 @@ const {
 
 router.post('/addQuestion', addQuestion);
 router.post('/addMultipleQuestions', addMultipleQuestions);
-router.get('/getAllQuestions', getAllQuestions);
 router.post('/getQuestions', getQuestions);
+router.get('/', getAllQuestions);
 
 router.post('/getQuestionPaper', getQuestionPaper);
 

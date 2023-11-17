@@ -110,6 +110,15 @@ const subjectStats = async (subject) => {
     }
 }
 
+const topicStats = async (subject, topic) => {
+    const results = await QuestionCollection.find({ subject: subject, topic: topic }, '-__v -_id')
+    results?.sort((a, b) => {
+        const difficultyOrder = { 'easy': 1, 'medium': 2, 'hard': 3 };
+        return difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
+    });
+    return results;
+}
+
 const test = async () => {
     try {
 
@@ -118,4 +127,4 @@ const test = async () => {
     }
 }
 
-module.exports = { test, dataBaseStats, subjectStats };
+module.exports = { test, dataBaseStats, subjectStats, topicStats };
